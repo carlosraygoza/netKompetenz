@@ -1,0 +1,10 @@
+- Archivo que tiene menu, content y footer
+C:\TOOL\common\xampp\htdocs\yii\facilito\themes\first\views\layouts\main.php
+
+-Archivo que tiene el CONTENT
+C:\TOOL\common\xampp\htdocs\yii\facilito\themes\first\views\site\index.php
+
+
+
+
+
