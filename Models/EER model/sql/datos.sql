@@ -442,8 +442,10 @@ VALUES ('32411403', 'GONZALEZ LEANO CARLOS GUSTAVO',  '0', '0', '0', '0', 'PM', 
 -- Dumping data for table `skill` (19 - October - 2017)
 --
 INSERT INTO `skill` (`idSkill`, `nameSkill`, `complexity`, `descriptionSkill`) 
-VALUES (18, 'absolute origin', 0, 'root'),
-(1, 'root', 0, 'Main skills tree'),
+VALUES (0, 'absolute origin', 0, 'root'),
+
+INSERT INTO `skill` (`idSkill`, `nameSkill`, `complexity`, `descriptionSkill`) 
+VALUES(1, 'root', 0, 'Main skills tree'),
 (2, 'zSandbox', 0, 'Place to play around with creation and editing of skills'),
 (3, 'Automotive', 0, 'Automotive'),
 (4, 'Branches & Professional Skills', 0, 'Branches & Professional Skills'),
@@ -1332,6 +1334,9 @@ INSERT INTO `skill_has_skill` (`idSkill_has_Skill`, `idSkill_parent`, `idSkill_c
 (15, 1, 15),
 (16, 1, 16),
 (17, 1, 17),
+
+
+
 (18, 3, 1003),
 (19, 3, 1034),
 (20, 3, 1035),
@@ -2193,6 +2198,7 @@ INSERT INTO `employee_has_skill` (`idEmployee`, `idSkill`, `levelExpertise`, `le
 ('00000000', 4173, 1, 1, 0),
 ('00000000', 4296, 0, 0, 0),
 ('00000000', 4304, 1, 1, 0),
+
 ('32008394', 1031, 1, 3, 0),
 ('32008394', 2011, 2, 3, 0),
 ('32008394', 2073, 1, 2, 0),
