@@ -442,7 +442,7 @@ VALUES ('32411403', 'GONZALEZ LEANO CARLOS GUSTAVO',  '0', '0', '0', '0', 'PM', 
 -- Dumping data for table `skill` (19 - October - 2017)
 --
 INSERT INTO `skill` (`idSkill`, `nameSkill`, `complexity`, `descriptionSkill`) 
-VALUES (0, 'absolute origin', 0, 'root'),
+VALUES (18, 'absolute origin', 0, 'root'),
 
 INSERT INTO `skill` (`idSkill`, `nameSkill`, `complexity`, `descriptionSkill`) 
 VALUES(1, 'root', 0, 'Main skills tree'),
@@ -2189,20 +2189,20 @@ INSERT INTO `skill_has_skill` (`idSkill_has_Skill`, `idSkill_parent`, `idSkill_c
 --
 
 INSERT INTO `employee_has_skill` (`idEhs`,  `idEmployee`, `idSkill`, `levelExpertise`, `levelInterest`, `isTrainer`) VALUES
-('','1', 4, 1, 1, 0),
-('','1', 5, 1, 1, 0),
-('','1', 6, 1, 2, 0),
-('','1', 3163, 2, 2, 0),
-('','1', 3207, 2, 1, 0),
-('','1', 4032, 2, 3, 0),
-('','1', 4173, 1, 1, 0),
-('','1', 4296, 0, 0, 0),
-('','1', 4304, 1, 1, 0),
-('','32008394', 1031, 1, 3, 0),
-('','32008394', 2011, 2, 3, 0),
-('','32008394', 2073, 1, 2, 0),
-('','32008394', 2107, 1, 3, 0),
-('32008394', 3132, 2, 0, 0),
+(NULL,'1', '4', '1', '1', '0'),
+(NULL,'1', '5', '1', '1', '0'),
+(NULL,'1', '6', '1', '2', '0'),
+(NULL,'1', '3163', '2', '2', '0'),
+(NULL,'1', '3207', '2', '1', '0'),
+(NULL,'1', '4032', '2', '3', '0'),
+(NULL,'1', '4173', '1', '1', '0'),
+(NULL,'1', '4296', '0', '0', '0'),
+(NULL,'1', '4304', '1', '1', '0'),
+(NULL,'32008394', '1031', '1', '3', '0'),
+(NULL,'32008394', '2011', '2', '3', '0'),
+(NULL,'32008394', '2073', '1', '2', '0'),
+(NULL,'32008394', '2107', '1', '3', '0'),
+(NULL,'32008394', '3132', '2', '0', '0'),
 
 
 ('32008394', 4037, 1, 3, 0),
