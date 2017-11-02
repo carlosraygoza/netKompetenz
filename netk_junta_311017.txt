@@ -1,0 +1,45 @@
+Employee
+ultima vez, veces que ha entrado
+
+roles
+no interfaz para roles (por ahorita) ni training
+
+Groups
+- 0 admin
+- 1 viewers
+- 2 solo miembro (sin viewers) 
+
+LOGIN
+username (uid)
+
+
+ADD SKILL
+agregar search , encontrar skill, y ya al seleccionarlo se abre el arbol en esa posicion y ya CRUD 
+
+edit -> move , copy
+ARBOL = create, edit (name y descripcion), delete, cut, copy ,paste
+
+GROUP EDITOR
+new (+)
+rename 
+delete 
+edit
+
+en "ADD SKILLS TO SW" mostrar descripcion
+
+group skill table
+agregar lo de isEveryone, skill everyone
+PARA ESE NIVEL
+- obligatorio (all) 
+- numero de personas minimo requeridas
+- 
+
+
+mostrar lo de personas con ese skill 
+
+cambiar group_has_skill
+
+eliminar skillEveryone, if people required -1 significa todos deben tener el skill 
+
+
+
